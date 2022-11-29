@@ -1,0 +1,14 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: 中繼目錄 (x64\Release\) 包含從其他專案 (ConsoleApplication3.vcxproj) 共用的檔案。這可能導致錯誤的清除和重建行為。
+  ConsoleApplication3.cpp
+C:\Users\nigue\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(13,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\nigue\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(14,20): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\nigue\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(48,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\nigue\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(49,20): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\nigue\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(75,16): warning C4477: 'printf' : 格式字串 '%d' 需要 'int' 類型的引數，但 variadic 引數 1 的類型為 'std::thread::id'
+C:\Users\nigue\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(83,1): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\nigue\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(84,20): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  正在產生程式碼
+  Previous IPDB not found, fall back to full compilation.
+  All 119 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  ConsoleApplication3.vcxproj -> C:\Users\nigue\source\repos\ConsoleApplication3\x64\Release\RotateCpp.exe

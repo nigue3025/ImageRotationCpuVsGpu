@@ -1,0 +1,105 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\nigue\source\repos\CudaRotate\CudaRotate>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin\nvcc.exe" -gencode=arch=compute_50,code=\"sm_50,compute_50\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc143.pdb /FS   /MD " -o C:\Users\nigue\source\repos\CudaRotate\CudaRotate\x64\Release\kernel.cu.obj "C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu" 
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(130): warning #546-D: transfer of control bypasses initialization of:
+              variable "dst"
+  (143): here
+              variable "t0"
+  (144): here
+              variable "t1"
+  (155): here
+              variable "thdsize"
+  (158): here
+              variable "blockSize"
+  (159): here
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(138): warning #546-D: transfer of control bypasses initialization of:
+              variable "dst"
+  (143): here
+              variable "t0"
+  (144): here
+              variable "t1"
+  (155): here
+              variable "thdsize"
+  (158): here
+              variable "blockSize"
+  (159): here
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(152): warning #546-D: transfer of control bypasses initialization of:
+              variable "t1"
+  (155): here
+              variable "thdsize"
+  (158): here
+              variable "blockSize"
+  (159): here
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(180): warning #546-D: transfer of control bypasses initialization of:
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(187): warning #546-D: transfer of control bypasses initialization of:
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(130): warning #546-D: transfer of control bypasses initialization of:
+              variable "dst"
+  (143): here
+              variable "t0"
+  (144): here
+              variable "t1"
+  (155): here
+              variable "thdsize"
+  (158): here
+              variable "blockSize"
+  (159): here
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(138): warning #546-D: transfer of control bypasses initialization of:
+              variable "dst"
+  (143): here
+              variable "t0"
+  (144): here
+              variable "t1"
+  (155): here
+              variable "thdsize"
+  (158): here
+              variable "blockSize"
+  (159): here
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(152): warning #546-D: transfer of control bypasses initialization of:
+              variable "t1"
+  (155): here
+              variable "thdsize"
+  (158): here
+              variable "blockSize"
+  (159): here
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(180): warning #546-D: transfer of control bypasses initialization of:
+              variable "t2"
+  (190): here
+  
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(187): warning #546-D: transfer of control bypasses initialization of:
+              variable "t2"
+  (190): here
+  
+  kernel.cu
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(122): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(158): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(173): warning C4244: '=': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(176): warning C4244: '引數': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\nigue\source\repos\CudaRotate\CudaRotate\kernel.cu(176): warning C4267: '引數': 將 'size_t' 轉換為 'int'，資料可能遺失
+     正在建立程式庫 C:\Users\nigue\source\repos\CudaRotate\x64\Release\CudaRotate.lib 和物件 C:\Users\nigue\source\repos\CudaRotate\x64\Release\CudaRotate.exp
+LINK : warning LNK4098: 預設的程式庫 'LIBCMT' 與其他使用的程式庫衝突，請使用 /NODEFAULTLIB:library
+  LINK : 指定了 /LTCG，但未要求程式碼產生，請從連結命令列移除 /LTCG 以提升連結器效能
+  CudaRotate.vcxproj -> C:\Users\nigue\source\repos\CudaRotate\x64\Release\CudaRotate.exe
